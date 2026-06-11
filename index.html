@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Generador de Tarjetas Platino</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         :root { --primary: #0070cc; --accent: #800080; --bg: #0b0f19; --panel: #1a2235; }
         body { background-color: var(--bg); color: #e0e0e0; font-family: 'Segoe UI', Roboto, sans-serif; padding: 20px; display: flex; flex-direction: column; align-items: center; }
@@ -21,6 +22,13 @@
     </style>
 </head>
 <body>
+<!-----Boton de Ko-Fi---->
+    <div style="text-align: center; margin-top: 20px;">
+    <a href="https://ko-fi.com/niskjakx" target="_blank">
+        <img src="https://storage.ko-fi.com/cdn/kofi1.png" alt="Apóyame en Ko-fi" style="width: 150px;">
+    </a>
+    </div>
+<!-----Boton de Ko-Fi---->
 
     <div class="panel">
         <h3>Perfil y Estadísticas</h3>
@@ -132,7 +140,7 @@
 
             // Marca de agua / URL
             ctx.fillStyle = "#8ea1bd"; ctx.font = "italic 12px Arial"; ctx.textAlign = "left";
-            ctx.fillText("Creado en: tu-sitio-aqui.com", 140, 125);
+            ctx.fillText("Creado en: pokemonisk.github.io/Generador-de-Tarjetas-Platino", 140, 125);
 
             const stats = [{id:'vP', src:'trofeo_platino.png'}, {id:'vO', src:'oro.png'}, {id:'vS', src:'plata.png'}, {id:'vB', src:'bronce.png'}];
             ctx.textAlign = "center";
